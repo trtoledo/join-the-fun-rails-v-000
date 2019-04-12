@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20190412093509) do
+=======
+ActiveRecord::Schema.define(version: 20190412092055) do
+>>>>>>> 7303c99a4bc1fa3d4c345d0d5fad95d6532ccf7b
 
   create_table "passengers", force: :cascade do |t|
     t.datetime "created_at", null: false
